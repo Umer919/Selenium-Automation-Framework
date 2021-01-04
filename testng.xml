@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+    
+    
+    <listeners>
+        <listener class-name="utils.SuiteListener"/>
+    </listeners>
+    <test name="Test Autumation">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="test.java.SampleTest"/>
+        </classes>
+    </test>
+    
+</suite>
